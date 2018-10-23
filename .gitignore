@@ -2,3 +2,6 @@
 /.recommenders/
 /nbproject/private/
 /build/
+bin/
+*.class
+
