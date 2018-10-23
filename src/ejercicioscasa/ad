@@ -1,0 +1,10 @@
+Existen dos formas de pasar parametros:
+
+	-Por valor Por referencia.
+	
+	Cuando pasasmos por valor , lo que le pasamos es una copia de los parametros orignales. Esto significa que
+	 los valores originales no se pueden modificar dentro del metodo.
+	 
+	 
+	 Cuando pasamos por referencia, significa que lo que pasamos al parametro formal es la direccion en memoria 
+	 del parametro original, en este caso si se puede modificar el valor de las variables originales.

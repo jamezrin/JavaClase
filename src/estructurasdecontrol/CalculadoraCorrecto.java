@@ -2,7 +2,7 @@ package estructurasdecontrol;
 
 import java.util.Scanner;
 
-public class CalculadoraV02 {
+public class CalculadoraCorrecto {
 
 	public static void main(String[] args) {
 
@@ -21,13 +21,13 @@ public class CalculadoraV02 {
 
 			boolean mostrarOpciones = true;
 			do {
-				System.out.println("Introduzca una forma de realizar el calculo: ");
-				System.out.println("");
-				System.out.println("1. Suma ");
-				System.out.println("2. Resta");
-				System.out.println("3. Multiplicación ");
-				System.out.println("4. División. ");
-				System.out.println("5. Salir de la aplicación.");
+					System.out.println("Introduzca una forma de realizar el calculo: ");
+					System.out.println("");
+					System.out.println("1. Suma ");
+					System.out.println("2. Resta");
+					System.out.println("3. Multiplicación ");
+					System.out.println("4. División. ");
+					System.out.println("5. Salir de la aplicación.");
 				int operando = entrada.nextInt();
 				// es true si el usuario introduce un numero correcto.
 				mostrarOpciones = (operando >= 1 && operando <= 5);

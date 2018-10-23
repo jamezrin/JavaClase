@@ -16,18 +16,18 @@ public class Calculadora {
 		boolean validar = true;
 		boolean mostrarRes = true;
 
-		System.out.println("Introduzca el primer número: ");
+		System.out.println("Introduzca el primer nï¿½mero: ");
 		op1 = entrada.nextDouble();
-		System.out.println("Introduzca el segundo número: ");
+		System.out.println("Introduzca el segundo nï¿½mero: ");
 		op2 = entrada.nextDouble();
 
 		do {
 			System.out.println("Introduzca una forma de realizar el calculo: ");
 			System.out.println("1. Suma ");
 			System.out.println("2. Resta");
-			System.out.println("3. Multiplicación ");
-			System.out.println("4. División. ");
-			System.out.println("5. Salir de la aplicación.");
+			System.out.println("3. Multiplicaciï¿½n ");
+			System.out.println("4. Divisiï¿½n. ");
+			System.out.println("5. Salir de la aplicaciï¿½n.");
 			correcta = entrada.nextInt();
 			
 
@@ -48,8 +48,8 @@ public class Calculadora {
 					break;
 				case 4:
 					if (op2 == 0) {
-						System.out.println("Introduzca otro operador2 que no sea 0");
-						mostrarRes = false;
+						System.out.println("Introduzca otro operador 2 que no sea 0");
+						mostrarRes = true;
 						break;
 					}
 					resultado = (op1 / op2);
